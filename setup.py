@@ -13,7 +13,7 @@
 # limitations under the License.
 """Module setuptools script."""
 
-from setuptools import setup
+from setuptools import setup, find_packages
 
 description = (
     "GraphCast: Learning skillful medium-range global weather forecasting"
@@ -28,7 +28,7 @@ setup(
     license="Apache License, Version 2.0",
     keywords="GraphCast Weather Prediction",
     url="https://github.com/deepmind/graphcast",
-    packages=["graphcast"],
+    packages=find_packages(["graphcast"]),
     install_requires=[
         "cartopy",
         "chex",
@@ -38,6 +38,7 @@ setup(
         "dm-tree",
         "jax",
         "jraph",
+        "jupyterlab",
         "matplotlib",
         "numpy",
         "pandas",
