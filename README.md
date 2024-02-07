@@ -71,6 +71,9 @@ The one-step implementation of GraphCast architecture, is provided in
 *   `xarray_tree.py`: An implementation of tree.map_structure that works with
     `xarray`s.
 
+### Dockerfile
+
+With run `docker build -t graphcast .` and once finished `docker run -p 8888:8888 graphcast` to open jupyter-lab (paste url into browser) (play with the demo) (remember to shutdown from within that url File>Shutdown Kernel). We can exclude jupyter stuff when parallelizing, this is to interactively test it.
 
 ### Dependencies.
 
