@@ -36,6 +36,8 @@ setup(
         "dask",
         "dm-haiku",
         "dm-tree",
+        "google-cloud",
+        "ipython",
         "jax",
         "jraph",
         "jupyterlab",
